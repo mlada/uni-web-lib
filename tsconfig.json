@@ -4,14 +4,9 @@
       "module": "esnext",
       "moduleResolution": "node",
       "strict": true,
-      "jsx": "preserve",
-      "jsxFactory": "h",
-      "jsxFragmentFactory": "Fragment",
-      "esModuleInterop": true,
-      "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true,
+      "declaration": true,
       "outDir": "dist",
-      "declaration": true
+      "esModuleInterop": true
     },
     "include": ["src"]
   }
